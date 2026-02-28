@@ -11,8 +11,8 @@ logging.basicConfig(
 )
 
 # Load environment variables
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8670658132:AAHWj-_8a0_Hwfi1TKe9OdV2Zs2XHpd5Y3Q")
+GOOGLE_API_KEY = os.getenv("AIzaSyB4Ez740aykORmhqPqD-VmcjoJXmICq1D4")
 
 # Configure Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -49,3 +49,4 @@ if __name__ == '__main__':
     
     print("Bot is starting...")
     app.run_polling()
+
